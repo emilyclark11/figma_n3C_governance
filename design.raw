@@ -1,0 +1,79 @@
+N3C Data Governance and Compliance Workflow
+Multi-Phase Security & Compliance Protocol
+Institutional and Individual Agreements
+Site Contributions
+Researcher Contributions
+Institutional Data Use Agreement (DUA)
+Individual: Signs Data Access Request (DAR)
+Establishes the permitted uses of the Data by the signing institution as assured by the signatory Institution
+Personal Investigators (PI): Follow Controlled Access Data Repository (CADR) Protocols
+Data Transfer Agreement (DTA)
+Sites sign DTA and submit a standard payload
+Risk:
+Control Mechanism:
+[Risk content to be added]
+Parallel accountability structure ensures that both sites (institutional agreements) and researchers (individual and PI commitments) formally commit to ethical and legal compliance prior to data access request advancement.
+Creation of Dynamic Workspaces
+Site Contributions
+Researcher Contributions
+Sites Select Trust Tier
+Researchers Define Phenotype
+Tier-Specific View Selector
+Declare Additional 'Relevant Codes'
+ITERATIVE
+FEEDBACK
+Tier A
+Tier B
+Tier C
+Tier A
+Tier B
+Tier C
+DAR Review Committee
+Trust Model
+Rules Model
+Dynamic Model
+All data shared
+Phenotype Exclusions
+Manual Site Opt-In
+Sites trust governance framework
+Sites exclude specific patient codes
+NIH Data Access Committee
+Institutions review every Data Access Request within a 30-day window.
+Final Formal Review
+If sites do not approve within 30-day window, site is included in study.
+Risk:
+Excluded codes may still be included via research loopholes
+NIH Data Access Committee
+Control:
+Final Formal Review
+NIH DAC reviews research intent
+Risk:
+Sites may miss review window
+Control:
+Default inclusion after 30 days ensures research continuity
+Risk:
+Control Mechanism:
+If researchers do not fully declare all research intent in phenotype and relevant codes, excluded patient codes are at risk of being included in studies through subgroup analysis.
+While sites share data based on their agreed upon tier structure (A, B, or C), researchers define their phenotypes and declare question-relevant codes to be used in analysis. These parallel streams converge at the DAR Review Committee where Subject Matter Experts assess proposals and provide feedback to researchers.
+Researchers Submit Data Use Request
+DURs are time-limited (1 year) and renewable (twice). Phenotypes may be reused across studies.
+A secure workspace is provisioned with approved data, including linked external datasets. Access is restricted to authorized team members.
+Secure Research Enclave
+Analysis occurs within a FedRAMP-authorized enclave. ISAs enable access to HPC environments for advanced analytics.
+Risk:
+Control Mechanism:
+Malicious actors may copy row level data or export datasets without DAC approval. This behavior is a direct violation of the previous agreements which are monitored and audited to take action in the event of a violation.
+Approved researchers access data exclusively within a highly controlled, continuously audited environment. Direct data export is prohibited without final publication committee approval.
+Download Request
+Researchers apply to download data that complies with download policy.
+Risk:
+Control Mechanism:
+If policy is not followed, row level, non-aggregate data could be removed from enclave.
+DAC reviews and approves request to ensure compliance.
+Publication Committee
+Protocol Compliance Audit
+Risk:
+Control Mechanism:
+[Risk content to be added]
+[Control mechanism details to be added]
+Approved Results Export
