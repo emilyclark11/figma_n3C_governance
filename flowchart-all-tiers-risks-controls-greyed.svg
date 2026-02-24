@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 3400" width="1400" height="3400">
+  <!-- Background -->
+  <rect width="1400" height="3400" fill="#f8fafc"/>
+  
+  <!-- Title Section -->
+  <text x="700" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b" letter-spacing="2">
+    N3C DATA GOVERNANCE AND COMPLIANCE WORKFLOW
+  </text>
+  <text x="700" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b" letter-spacing="1.5">
+    MULTI-PHASE SECURITY &amp; COMPLIANCE PROTOCOL
+  </text>
+  <line x1="200" y1="110" x2="1200" y2="110" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Description Box -->
+  <rect x="150" y="140" width="1100" height="100" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2" rx="8"/>
+  <text x="700" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#475569">
+    <tspan x="700" dy="0">Multi-level and multiple groups of accountability ensure that both sites (Institutional Agreements) and researchers</tspan>
+    <tspan x="700" dy="16">(Individual and PIs) formally commit to ethical and legal compliance prior to any data access. These are legally</tspan>
+    <tspan x="700" dy="16">binding agreements. The follow workflow presents the three pathways for dynamic workspaces to be provisioned,</tspan>
+    <tspan x="700" dy="16">highlighting any potential risks and how those risks are managed and mitigated through the rigorous N3C governance process.</tspan>
+  </text>
+  
+  <!-- Filter Controls Display -->
+  <rect x="150" y="260" width="1100" height="80" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2" rx="8"/>
+  <text x="370" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#64748b" letter-spacing="1">TIER:</text>
+  <rect x="420" y="275" width="80" height="35" fill="white" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="460" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#475569">Tier A</text>
+  <rect x="510" y="275" width="80" height="35" fill="white" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="550" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#475569">Tier B</text>
+  <rect x="600" y="275" width="80" height="35" fill="white" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="640" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#475569">Tier C</text>
+  <rect x="690" y="275" width="80" height="35" fill="#2563eb" stroke="#2563eb" stroke-width="2" rx="4"/>
+  <text x="730" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="white">All</text>
+  
+  <line x1="790" y1="285" x2="790" y2="325" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <text x="810" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#64748b" letter-spacing="1">HIGHLIGHT:</text>
+  <rect x="900" y="275" width="80" height="35" fill="white" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="940" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#475569">All</text>
+  <rect x="990" y="275" width="80" height="35" fill="white" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="1030" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#475569">Risks</text>
+  <rect x="1080" y="275" width="150" height="35" fill="white" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="1155" y="300" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#475569">Control Mechanisms</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#cbd5e1"/>
+    </marker>
+  </defs>
+  
+  <!-- Phase 1: Institutional and Individual Agreements -->
+  <rect x="100" y="380" width="1200" height="580" fill="white" stroke="#8B008B" stroke-width="4"/>
+  <text x="700" y="420" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" letter-spacing="1.5">
+    INSTITUTIONAL AND INDIVIDUAL AGREEMENTS
+  </text>
+  
+  <!-- Left Column: Site Contributions -->
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#8B008B" letter-spacing="1">
+    SITE CONTRIBUTIONS
+  </text>
+  
+  <!-- Institutional DUA -->
+  <rect x="250" y="480" width="300" height="50" fill="#8B008B" fill-opacity="0.1" stroke="#8B008B" stroke-width="2" rx="4"/>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="12" font-weight="500" text-anchor="middle" fill="#1e293b">
+    Institutional Data Use Agreement (DUA)
+  </text>
+  <text x="400" y="555" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#475569">
+    <tspan x="400">Establishes the permitted uses of the Data by the</tspan>
+    <tspan x="400" dy="12">signing institution as assured by the signatory</tspan>
+    <tspan x="400" dy="12">Institution</tspan>
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M 400 595 L 400 615" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Data Transfer Agreement -->
+  <rect x="250" y="625" width="300" height="50" fill="#8B008B" fill-opacity="0.1" stroke="#8B008B" stroke-width="2" rx="4"/>
+  <text x="400" y="655" font-family="Arial, sans-serif" font-size="12" font-weight="500" text-anchor="middle" fill="#1e293b">
+    Data Transfer Agreement (DTA)
+  </text>
+  <text x="400" y="695" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#475569">
+    <tspan x="400">Sites sign DTA and submit a standard payload</tspan>
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M 400 715 L 400 735" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Sites Select Trust Tier -->
+  <rect x="250" y="745" width="300" height="50" fill="#8B008B" fill-opacity="0.1" stroke="#8B008B" stroke-width="2" rx="4"/>
+  <text x="400" y="775" font-family="Arial, sans-serif" font-size="12" font-weight="500" text-anchor="middle" fill="#1e293b">
+    Sites Select Trust Tier
+  </text>
+  
+  <!-- Right Column: Researcher Contributions -->
+  <text x="1000" y="460" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#00BFFF" letter-spacing="1">
+    RESEARCHER CONTRIBUTIONS
+  </text>
+  
+  <!-- Individual Signs DAR -->
+  <rect x="850" y="480" width="300" height="50" fill="#00BFFF" fill-opacity="0.1" stroke="#00BFFF" stroke-width="2" rx="4"/>
+  <text x="1000" y="510" font-family="Arial, sans-serif" font-size="12" font-weight="500" text-anchor="middle" fill="#1e293b">
+    Individual: Signs Data Access Request (DAR)
+  </text>
+  <text x="1000" y="555" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#475569">
+    <tspan x="1000">Researchers submit a Data Use Request (DUR) with</tspan>
+    <tspan x="1000" dy="12">a computable phenotype, IRB documentation,</tspan>
+    <tspan x="1000" dy="12">access tier, pre-defined linkage packages (PLPs)</tspan>
+    <tspan x="1000" dy="12">and selected datasets.</tspan>
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M 1000 605 L 1000 625" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- PI CADR Protocols -->
+  <rect x="850" y="635" width="300" height="60" fill="#00BFFF" fill-opacity="0.1" stroke="#00BFFF" stroke-width="2" rx="4"/>
+  <text x="1000" y="660" font-family="Arial, sans-serif" font-size="11" font-weight="500" text-anchor="middle" fill="#1e293b">
+    <tspan x="1000">Principal Investigators (PI): Follow Controlled</tspan>
+    <tspan x="1000" dy="14">Access Data Repository (CADR) Protocols</tspan>
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M 1000 705 L 1000 725" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Researchers Define Phenotype -->
+  <rect x="850" y="735" width="300" height="60" fill="#00BFFF" fill-opacity="0.1" stroke="#00BFFF" stroke-width="2" rx="4"/>
+  <text x="1000" y="760" font-family="Arial, sans-serif" font-size="11" font-weight="500" text-anchor="middle" fill="#1e293b">
+    <tspan x="1000">Researchers Define Phenotype and Declare</tspan>
+    <tspan x="1000" dy="14">Additional 'Relevant Codes'</tspan>
+  </text>
+  
+  <!-- Three Risk Boxes - GREYED OUT -->
+  <g opacity="0.3">
+    <rect x="855" y="805" width="90" height="65" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="1.5" rx="3"/>
+    <text x="900" y="817" font-family="Arial, sans-serif" font-size="8" font-weight="600" text-anchor="middle" fill="#1e293b">Risk:</text>
+    <text x="900" y="829" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#334155">
+      <tspan x="900">Researcher writes a</tspan>
+      <tspan x="900" dy="8">deceptive DAR to</tspan>
+      <tspan x="900" dy="8">obscure the true</tspan>
+      <tspan x="900" dy="8">research question</tspan>
+      <tspan x="900" dy="8">and its intended</tspan>
+      <tspan x="900" dy="8">purpose.</tspan>
+    </text>
+    
+    <rect x="955" y="805" width="90" height="65" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="1.5" rx="3"/>
+    <text x="1000" y="817" font-family="Arial, sans-serif" font-size="8" font-weight="600" text-anchor="middle" fill="#1e293b">Risk:</text>
+    <text x="1000" y="829" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#334155">
+      <tspan x="1000">Refuses to share</tspan>
+      <tspan x="1000" dy="8">relevant codes to</tspan>
+      <tspan x="1000" dy="8">avoid triggering</tspan>
+      <tspan x="1000" dy="8">restriction.</tspan>
+    </text>
+    
+    <rect x="1055" y="805" width="90" height="65" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="1.5" rx="3"/>
+    <text x="1100" y="817" font-family="Arial, sans-serif" font-size="8" font-weight="600" text-anchor="middle" fill="#1e293b">Risk:</text>
+    <text x="1100" y="829" font-family="Arial, sans-serif" font-size="7" text-anchor="middle" fill="#334155">
+      <tspan x="1100">Requesting multiple</tspan>
+      <tspan x="1100" dy="8">DARs to piece</tspan>
+      <tspan x="1100" dy="8">together data to</tspan>
+      <tspan x="1100" dy="8">gather sensitive</tspan>
+      <tspan x="1100" dy="8">information.</tspan>
+    </text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M 1000 880 L 1000 900" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- DAR Review Committee -->
+  <rect x="850" y="910" width="300" height="40" fill="#9ACD32" fill-opacity="0.2" stroke="#9ACD32" stroke-width="2" rx="4"/>
+  <text x="1000" y="935" font-family="Arial, sans-serif" font-size="12" font-weight="500" text-anchor="middle" fill="#1e293b">
+    DAR Review Committee
+  </text>
+  
+  <!-- Left-Facing Bracket for Iterative Feedback - GREYED OUT -->
+  <g opacity="0.3">
+    <line x1="1180" y1="745" x2="1180" y2="910" stroke="#DAA520" stroke-width="4"/>
+    <line x1="1160" y1="745" x2="1180" y2="745" stroke="#DAA520" stroke-width="4"/>
+    <line x1="1160" y1="910" x2="1180" y2="910" stroke="#DAA520" stroke-width="4"/>
+    <text x="1220" y="822" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#475569" text-anchor="middle">ITERATIVE</text>
+    <text x="1220" y="834" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#475569" text-anchor="middle">FEEDBACK</text>
+  </g>
+  
+  <!-- Arrow between sections -->
+  <path d="M 700 970 L 700 1010" stroke="#cbd5e1" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Control Mechanism Box - GREYED OUT -->
+  <g opacity="0.3">
+    <rect x="200" y="1020" width="1000" height="140" fill="#008080" fill-opacity="0.2" stroke="#008080" stroke-width="2" rx="6"/>
+    <text x="220" y="1045" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Control Mechanism:</text>
+    <text x="600" y="1070" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="220">The DAR Review Committee leverages Subject Matter Experts to assess researcher proposals and the</tspan>
+      <tspan x="220" dy="16">alignment of phenotype codes with the research question. The Review committee provides its feedback, in</tspan>
+      <tspan x="220" dy="16">an iterative process with researchers and all feedback/mitigations are combined with the DAR submission</tspan>
+      <tspan x="220" dy="16">and the site selected governance structure is executed.</tspan>
+    </text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M 700 1170 L 700 1210" stroke="#cbd5e1" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 2: Creation of Dynamic Workspaces -->
+  <rect x="100" y="1220" width="1200" height="1900" fill="white" stroke="#9ACD32" stroke-width="4"/>
+  <text x="700" y="1260" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e293b" letter-spacing="1.5">
+    CREATION OF DYNAMIC WORKSPACES
+  </text>
+  
+  <!-- Tier A Column -->
+  <g id="tierA">
+    <rect x="150" y="1290" width="350" height="40" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" rx="4"/>
+    <text x="325" y="1315" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#1e293b" letter-spacing="1">TRUST MODEL</text>
+    
+    <text x="325" y="1355" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#475569">NIH DAC Authorized</text>
+    <text x="325" y="1380" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+      <tspan x="325">The institution delegates review authority to</tspan>
+      <tspan x="325" dy="12">the federal N3C DAC. Data is included in all</tspan>
+      <tspan x="325" dy="12">approved projects automatically.</tspan>
+    </text>
+  </g>
+  
+  <!-- Tier B Column -->
+  <g id="tierB">
+    <rect x="525" y="1290" width="350" height="40" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" rx="4"/>
+    <text x="700" y="1315" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#1e293b" letter-spacing="1">RULES MODEL</text>
+    
+    <text x="700" y="1355" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#475569">Data Use Limitations (DUL)</text>
+    <text x="700" y="1380" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">
+      <tspan x="700">Sites create rules to limit the use of their</tspan>
+      <tspan x="700" dy="12">data (e.g. specific EHR codes, patient</tspan>
+      <tspan x="700" dy="12">populations, datatypes, or institution types).</tspan>
+    </text>
+    
+    <!-- Match/No Match indicators -->
+    <circle cx="563" cy="1430" r="5" fill="#16a34a"/>
+    <text x="575" y="1435" font-family="Arial, sans-serif" font-size="9" fill="#334155">
+      <tspan font-weight="600">No Match:</tspan> Site Data Included
+    </text>
+    
+    <circle cx="563" cy="1455" r="5" fill="#dc2626"/>
+    <line x1="560" y1="1452" x2="566" y2="1458" stroke="white" stroke-width="2"/>
+    <line x1="566" y1="1452" x2="560" y2="1458" stroke="white" stroke-width="2"/>
+    <text x="575" y="1460" font-family="Arial, sans-serif" font-size="9" fill="#334155">
+      <tspan font-weight="600">Match:</tspan> Site Data Excluded
+    </text>
+    
+    <!-- Risk Box - GREYED OUT -->
+    <g opacity="0.3">
+      <rect x="545" y="1480" width="310" height="75" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="2" rx="4"/>
+      <text x="555" y="1500" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Risk:</text>
+      <text x="700" y="1520" font-family="Arial, sans-serif" font-size="9" fill="#334155">
+        <tspan x="555">The exclusion of individual-level codes may</tspan>
+        <tspan x="555" dy="12">adversely impact analytical validity by introducing</tspan>
+        <tspan x="555" dy="12">bias and diminishing utility of the dataset.</tspan>
+      </text>
+    </g>
+    
+    <!-- Control Box - GREYED OUT -->
+    <g opacity="0.3">
+      <rect x="545" y="1565" width="310" height="90" fill="#008080" fill-opacity="0.2" stroke="#008080" stroke-width="2" rx="4"/>
+      <text x="555" y="1585" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Control Mechanism:</text>
+      <text x="555" y="1605" font-family="Arial, sans-serif" font-size="9" fill="#334155">
+        <tspan x="555">Although excluding site-level data results in some</tspan>
+        <tspan x="555" dy="12">data loss, this approach was adopted to facilitate</tspan>
+        <tspan x="555" dy="12">Data Access Request (DAR) approval rather than</tspan>
+        <tspan x="555" dy="12">removing person-level data.</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Tier C Column -->
+  <g id="tierC">
+    <rect x="900" y="1290" width="350" height="40" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" rx="4"/>
+    <text x="1075" y="1315" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#1e293b" letter-spacing="1">DYNAMIC MODEL</text>
+    
+    <!-- Manual Site Opt-In Section -->
+    <rect x="920" y="1350" width="310" height="160" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+    <text x="1075" y="1375" font-family="Arial, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#475569" letter-spacing="1">MANUAL SITE OPT-IN</text>
+    
+    <rect x="930" y="1385" width="290" height="50" fill="white" stroke="#cbd5e1" stroke-width="1" rx="3"/>
+    <text x="1075" y="1405" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#334155">
+      <tspan x="1075">Institutions review every Data Access</tspan>
+      <tspan x="1075" dy="11">Request within a 30-day window.</tspan>
+    </text>
+    
+    <rect x="930" y="1445" width="290" height="55" fill="white" stroke="#cbd5e1" stroke-width="1" rx="3"/>
+    <text x="1075" y="1465" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#334155">
+      <tspan x="1075">If sites do not approve within </tspan>
+      <tspan font-weight="600">30-day window</tspan>
+      <tspan>, site is </tspan>
+    </text>
+    <text x="1075" y="1485" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#15803d" font-weight="600">
+      <tspan>included in study</tspan>
+      <tspan fill="#334155" font-weight="400">.</tspan>
+    </text>
+    
+    <!-- NIH Data Access Committee -->
+    <rect x="920" y="1530" width="310" height="60" fill="#9ACD32" fill-opacity="0.2" stroke="#9ACD32" stroke-width="2" rx="4"/>
+    <text x="1075" y="1555" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#1e293b" letter-spacing="1">NIH DATA ACCESS COMMITTEE</text>
+    <text x="1075" y="1575" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#64748b" letter-spacing="1">FINAL FORMAL REVIEW</text>
+    
+    <!-- Risk Box - GREYED OUT -->
+    <g opacity="0.3">
+      <rect x="920" y="1610" width="310" height="80" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="2" rx="4"/>
+      <text x="930" y="1630" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Risk:</text>
+      <text x="930" y="1650" font-family="Arial, sans-serif" font-size="9" fill="#334155">
+        <tspan x="930">If a site does not respond during the specified</tspan>
+        <tspan x="930" dy="12">review period, data may be included by default,</tspan>
+        <tspan x="930" dy="12">potentially resulting in the inclusion of data that the</tspan>
+        <tspan x="930" dy="12">site would have declined had it timely reviewed.</tspan>
+      </text>
+    </g>
+    
+    <!-- Control Box - GREYED OUT -->
+    <g opacity="0.3">
+      <rect x="920" y="1700" width="310" height="60" fill="#008080" fill-opacity="0.2" stroke="#008080" stroke-width="2" rx="4"/>
+      <text x="930" y="1720" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#1e293b">Control Mechanism:</text>
+      <text x="930" y="1740" font-family="Arial, sans-serif" font-size="9" fill="#334155">
+        <tspan x="930">Default inclusion after 30 days ensures</tspan>
+        <tspan x="930" dy="12">research continuity.</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Arrow connecting to common workflow -->
+  <path d="M 700 1780 L 700 1820" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrowhead)"/>
+  
+  <!-- COMMON WORKFLOW SECTION -->
+  
+  <!-- Researchers Submit Data Use Request -->
+  <rect x="200" y="1830" width="1000" height="80" fill="#00BFFF" fill-opacity="0.1" stroke="#00BFFF" stroke-width="2" rx="6"/>
+  <text x="700" y="1860" font-family="Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1e293b">Researchers Submit Data Use Request</text>
+  <text x="700" y="1885" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#475569">
+    <tspan x="700">DURs are time-limited (1 year) and renewable (twice). Phenotypes may be reused across</tspan>
+    <tspan x="700" dy="14">studies.</tspan>
+  </text>
+  
+  <!-- Risk and Control for DUR - GREYED OUT -->
+  <g opacity="0.3">
+    <rect x="200" y="1920" width="490" height="85" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="2" rx="4"/>
+    <text x="210" y="1940" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Risk:</text>
+    <text x="445" y="1960" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="210">Researcher hides a subgroup analysis or</tspan>
+      <tspan x="210" dy="14">conducts a new research question that is not</tspan>
+      <tspan x="210" dy="14">approved by DAR or DAC committees.</tspan>
+    </text>
+    
+    <rect x="710" y="1920" width="490" height="85" fill="#008080" fill-opacity="0.2" stroke="#008080" stroke-width="2" rx="4"/>
+    <text x="720" y="1940" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Control Mechanism:</text>
+    <text x="955" y="1960" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="720">Hard to monitor this, relies on post-analysis</tspan>
+      <tspan x="720" dy="14">review and user integrity.</tspan>
+    </text>
+  </g>
+  
+  <!-- Arrow with label -->
+  <path d="M 700 2015 L 700 2100" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="700" y="2045" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#64748b">
+    <tspan x="700">A secure workspace is provisioned with approved</tspan>
+    <tspan x="700" dy="13">data, including linked external datasets. Access</tspan>
+    <tspan x="700" dy="13">is restricted to authorized team members.</tspan>
+  </text>
+  
+  <!-- Secure Research Enclave -->
+  <rect x="200" y="2110" width="1000" height="80" fill="#4682B4" fill-opacity="0.1" stroke="#4682B4" stroke-width="6" rx="6"/>
+  <text x="700" y="2140" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1e293b" letter-spacing="1.5">SECURE RESEARCH ENCLAVE</text>
+  <text x="700" y="2165" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#475569">
+    <tspan x="700">Analysis occurs within a FedRAMP-authorized enclave. ISAs enable access to HPC</tspan>
+    <tspan x="700" dy="14">environments for advanced analytics.</tspan>
+  </text>
+  
+  <!-- Risk and Control for Enclave - GREYED OUT -->
+  <g opacity="0.3">
+    <rect x="200" y="2200" width="490" height="110" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="2" rx="4"/>
+    <text x="210" y="2220" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Risk:</text>
+    <text x="445" y="2240" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="210">Users may copy row-level data or export datasets</tspan>
+      <tspan x="210" dy="14">without approval from the Data Access Committee</tspan>
+      <tspan x="210" dy="14">(DAC). Such conduct would constitute a material</tspan>
+      <tspan x="210" dy="14">breach of the governing agreements.</tspan>
+    </text>
+    
+    <rect x="710" y="2200" width="490" height="110" fill="#008080" fill-opacity="0.2" stroke="#008080" stroke-width="2" rx="4"/>
+    <text x="720" y="2220" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Control Mechanism:</text>
+    <text x="955" y="2240" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="720">Approved researchers access data exclusively</tspan>
+      <tspan x="720" dy="14">within a highly controlled, continuously</tspan>
+      <tspan x="720" dy="14">audited environment. Direct data export is</tspan>
+      <tspan x="720" dy="14">prohibited without final publication committee</tspan>
+      <tspan x="720" dy="14">approval.</tspan>
+    </text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M 700 2320 L 700 2360" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Download Request and Publication Committee -->
+  <rect x="200" y="2370" width="1000" height="70" fill="#9ACD32" fill-opacity="0.2" stroke="#9ACD32" stroke-width="2" rx="6"/>
+  <text x="700" y="2398" font-family="Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#1e293b" letter-spacing="1">DOWNLOAD REQUEST AND PUBLICATION COMMITTEE</text>
+  <text x="700" y="2420" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#475569">
+    <tspan x="700">Researchers apply to download data that complies with download policy.</tspan>
+  </text>
+  
+  <!-- Risk and Control for Download - GREYED OUT -->
+  <g opacity="0.3">
+    <rect x="200" y="2450" width="490" height="85" fill="#b13c3c" fill-opacity="0.2" stroke="#b13c3c" stroke-width="2" rx="4"/>
+    <text x="210" y="2470" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Risk:</text>
+    <text x="445" y="2490" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="210">Failure to adhere to applicable policies may result</tspan>
+      <tspan x="210" dy="14">in the unauthorized removal of row-level,</tspan>
+      <tspan x="210" dy="14">non-aggregate data from the enclave.</tspan>
+    </text>
+    
+    <rect x="710" y="2450" width="490" height="85" fill="#008080" fill-opacity="0.2" stroke="#008080" stroke-width="2" rx="4"/>
+    <text x="720" y="2470" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#1e293b">Control Mechanism:</text>
+    <text x="955" y="2490" font-family="Arial, sans-serif" font-size="11" fill="#334155">
+      <tspan x="720">DAC reviews and approves requests to ensure</tspan>
+      <tspan x="720" dy="14">compliance.</tspan>
+    </text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M 700 2545 L 700 2585" stroke="#cbd5e1" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Final: Approved Results Export -->
+  <rect x="300" y="2595" width="800" height="60" fill="#cbd5e1" stroke="#64748b" stroke-width="2" rx="6"/>
+  <text x="700" y="2633" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1e293b" letter-spacing="1.5">APPROVED RESULTS EXPORT</text>
+</svg>
